@@ -20,10 +20,10 @@ public class Main{
 		}
 			public static int quantity() {
 				ArrayList<Integer>quantity = new ArrayList<Integer>();
-				quantity.add(0);
-				quantity.add(0);
-				quantity.add(0);
-				quantity.add(0);
+				quantity.add(4);
+				quantity.add(2);
+				quantity.add(3);
+				quantity.add(5);
 				int totalquantity=0;
 				for(Integer q : quantity) {
 					totalquantity += q;
